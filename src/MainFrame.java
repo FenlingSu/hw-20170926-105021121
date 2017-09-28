@@ -174,8 +174,7 @@ public class MainFrame extends Frame {
                         flag = true;
                     }
                 }
-                if ( labgunX >= sunw - 5 && labgunX <= sunw + 20 && bulY <= sunh) {
-                    labboom.setLocation(labgunX,bulY);
+                if ( labgunX >= sunw - 5 && labgunX <= sunw + 20 && bulY == sunh) {
                     ran = (int) (Math.random() * (MainFrame.this.getWidth() - 80) + 50);
                     sunw = ran;
                     ran2 = (int) (Math.random() * (MainFrame.this.getHeight() - 350) + 50);
